@@ -13,21 +13,9 @@
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
     <style>
-    .flex-container
-     {
-         display: flex;  flex-direction:row;
-        background-color: red;
-     }
-        .flex-container > div {  
-            background-color: #f1f1f1; 
-            margin: 10px;  padding: 20px;  font-size: 30px;
-        }
-             @media (max-width: 700px){
-                 .flex-container{
-                     flex-direction:column;
-                     background-color: green;
-                     }
-                     }</style></head>
+
+
+    </style>
 </head>
 <body>
     <body>
@@ -75,8 +63,79 @@
           <img src="lion.jpg" class="img-thumbnail" alt="image of lion">
           <img src="yak.jpg" class="img-thumbnail" alt="image yak">
          </div>
-         
 
+         <table class="table table-striped table-bordered">
+           <caption>Above mentioned information about 6 letters, animal,cities,car</caption>
+          <thead class="table-dark">
+            
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">letter</th>
+                <th scope="col">aniaml</th>
+                <th scope="col">city</th>
+                <th scope="col">car</th>
+              </tr>
+            </thead>
+            <tbody style="background-color: indianred;">
+              <tr>
+                <th scope="row">1</th>
+                <td>a</td>
+                <td>ant</td>
+                <td>Arlington</td>
+                <td>alfa</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>l</td>
+                <td>lion</td>
+                <td>losangels </td>
+                <td>lancia</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>y</td>
+                <td>yak</td>
+                <td>yuma</td>
+                <td>yaris</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>A</td>
+                <td>aadavark</td>
+                <td>arlington</td>
+                <td>amstrong</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>v</td>
+                <td>vulture</td>
+                <td>vadodara</td>
+                <td>valmet</td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>R</td>
+                <td>Roadrunner</td>
+                <td>riverside</td>
+                <td>rolss roycee</td>
+              </tr>
+            </tbody>
+          </table>
+         </table>
+         <div class="btn-toolbar" aria-label="Letter Button Gropus">
+          <div class="btn-group mr-2" aria-label="This is the First Button Group">
+              <button class="btn btn-success">A</button>
+              <button class="btn btn-success">L</button>
+              <button class="btn btn-success">Y</button>
+          </div>
+          <div class="btn-group mr-2" aria-label="This is the Second Button Group">
+              <button class="btn btn-alert">A</button>
+              <button class="btn btn-alert">V</button>
+          </div>
+          <div class="btn-group mr-2" aria-label="This is the Third Button Group">
+              <button class="btn btn-danger">R</button>
+          </div>
+      </div>
 
 
 
